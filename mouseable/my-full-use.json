@@ -1,34 +1,34 @@
 {
-    "command": {
-      "toggle": "Capslock+;",
-      "deactivate": ";",
-      "click-left": "A",
-      "click-middle": "S",
-      "click-right": "D",
-      "move-down": "J",
-      "move-left": "H",
-      "move-right": "L",
-      "move-up": "K",
-      "sniper-mode": "Space",
-      "sniper-mode-wheel": "Space",
-      "teleport-down": "Capslock+J",
-      "teleport-left": "Capslock+H",
-      "teleport-right": "Capslock+L",
-      "teleport-up": "Capslock+K",
-      "wheel-down": "N",
-      "wheel-left": "I",
-      "wheel-right": "O",
-      "wheel-up": "U"
-    },
-    "data": {
-      "cursor-sniper-speed": 2,
-      "cursor-acceleration": 0.5,
-      "cursor-max-speed": 10,
-      "key-timeout": 150,
-      "show-overlay": false,
-      "teleport-distance": 200,
-      "wheel-acceleration": 4,
-      "wheel-sniper-speed": 8,
-      "wheel-max-speed": 40
-    }
+  "command": {
+    "toggle": "Capslock+;",
+    "deactivate": ";",
+    "click-left": "A",
+    "click-middle": "S",
+    "click-right": "D",
+    "move-down": "J",
+    "move-left": "H",
+    "move-right": "L",
+    "move-up": "K",
+    "sniper-mode": "Space",
+    "sniper-mode-wheel": "Space",
+    "teleport-down": "Capslock+J",
+    "teleport-left": "Capslock+H",
+    "teleport-right": "Capslock+L",
+    "teleport-up": "Capslock+K",
+    "wheel-down": "N",
+    "wheel-left": "I",
+    "wheel-right": "O",
+    "wheel-up": "U"
+  },
+  "data": {
+    "cursor-sniper-speed": 2,
+    "cursor-acceleration": 1,
+    "cursor-max-speed": 10,
+    "key-timeout": 150,
+    "show-overlay": false,
+    "teleport-distance": 200,
+    "wheel-acceleration": 4,
+    "wheel-sniper-speed": 8,
+    "wheel-max-speed": 40
   }
+}
