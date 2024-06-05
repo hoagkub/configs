@@ -12,8 +12,8 @@
     "move-right": "L",
     "move-up": "K",
 
-    "sniper-mode": "Space",
-    "sniper-mode-wheel": "Space",
+    "sniper-mode": "F",
+    "sniper-mode-wheel": "F",
 
     "teleport-down": "Capslock+J",
     "teleport-left": "Capslock+H",
