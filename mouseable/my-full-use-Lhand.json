@@ -1,7 +1,7 @@
 {
   "command": {
-    "toggle": "Capslock+;",
-    "deactivate": ";",
+    "toggle": "Capslock+Q",
+    "deactivate": "Q",
 
     "click-left": "A",
     "click-middle": "S",
@@ -12,18 +12,18 @@
     "move-right": "L",
     "move-up": "K",
 
-    "sniper-mode": "F",
-    "sniper-mode-wheel": "F",
+    "sniper-mode": "G",
+    "sniper-mode-wheel": "G",
 
     "teleport-down": "Capslock+J",
     "teleport-left": "Capslock+H",
     "teleport-right": "Capslock+L",
     "teleport-up": "Capslock+K",
 
-    "wheel-down": "N",
-    "wheel-left": "I",
-    "wheel-right": "O",
-    "wheel-up": "U"
+    "wheel-down": "F",
+    "wheel-left": "W",
+    "wheel-right": "E",
+    "wheel-up": "R"
   },
   "data": {
     "cursor-acceleration": 1,
@@ -38,6 +38,6 @@
     "teleport-distance": 200,
 
     "key-timeout": 150,
-    "show-overlay": false
+    "show-overlay": true
   }
 }
