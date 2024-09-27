@@ -3,8 +3,8 @@
     "toggle": "Capslock+Q",
     "deactivate": "Q",
 
-    "click-left": "A",
-    "click-middle": "S",
+    "click-middle": "A",
+    "click-left": "S",
     "click-right": "D",
 
     "move-down": "J",
