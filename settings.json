@@ -1,0 +1,74 @@
+{
+    "remote.SSH.remotePlatform": {
+        "dercules": "linux",
+        "rls-test-gl-runner": "linux",
+        "newostest_ubuntu2404": "linux"
+    },
+    "workbench.sideBar.location": "right",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "GitHub Dark",
+    "editor.multiCursorPaste": "full",
+    "vscode-office.openOutline": true,
+    "git.mergeEditor": true,
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/CVS": false,
+        "**/Thumbs.db": false
+    },
+    "notebook.output.scrolling": true,
+    "workbench.editor.showTabs": "single",
+    "workbench.tree.indent": 16,
+    "editor.renderWhitespace": "all",
+    "notebook.editorOptionsCustomizations": {
+        "editor.tabSize": 4,
+        "editor.indentSize": 4,
+        "editor.insertSpaces": true
+    },
+    "remote.SSH.defaultExtensions": [
+        "cweijan.vscode-office",
+        "eamodio.gitlens",
+        "github.github-vscode-theme",
+        "gitlab.gitlab-workflow",
+        "ms-python.debugpy",
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.vscode-jupyter-slideshow",
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-ssh-edit",
+        "ms-vscode-remote.remote-wsl",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "ms-vscode.remote-explorer",
+        "ms-vscode.remote-server",
+        "ryu1kn.partial-diff",
+        "t-nano.markdown-to-confluence-vscode",
+        "vincent-templier.vscode-netron",
+        "yo1dog.cursor-align",
+        "yzhang.markdown-all-in-one"
+    ],
+    "workbench.editorAssociations": {
+        "*.md": "default",
+        "*.csv": "default",
+        "*.markdown": "default"
+    },
+    "notebook.diff.ignoreMetadata": true,
+    "notebook.diff.ignoreOutputs": true,
+    "workbench.panel.showLabels": false,
+    "diffEditor.renderSideBySide": true,
+    "remote.autoForwardPortsSource": "hybrid",
+    "workbench.editor.enablePreview": false,
+    "explorer.autoReveal": false,
+    "terminal.integrated.profiles.linux": {
+        "code-shell": {
+            "path": "/nethome/hoang/code-shell.sh"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "code-shell"
+
+}
