@@ -14,11 +14,8 @@ else
     folder_icon="🖥️"
 fi
 
-# Strip the path and leave the folder name
-folder_name="$(basename $folder)"
-
 # Construct the session name
-SESSION="$folder_icon  $folder_name"
+SESSION="$folder_icon"
 
 # Attach to Tmux
 
