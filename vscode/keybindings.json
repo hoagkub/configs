@@ -1,0 +1,19 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "${file}"
+        },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "${fileDirname}/"
+        },
+        "when": "terminalFocus"
+    },
+]
