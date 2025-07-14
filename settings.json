@@ -65,10 +65,13 @@
     "workbench.editor.enablePreview": false,
     "explorer.autoReveal": false,
     "terminal.integrated.profiles.linux": {
-        "code-shell": {
-            "path": "/nethome/hoang/code-shell.sh"
+        "bash-tmux": {
+            "path": "bash",
+            "args": [
+                "-c",
+                "SESSION=vscode${PWD//\\//_}; tmux new-window -t $SESSION; tmux new-session -A -D -s $SESSION"
+            ]
         }
     },
-    "terminal.integrated.defaultProfile.linux": "code-shell"
-
+    "terminal.integrated.defaultProfile.linux": "bash-tmux"
 }
