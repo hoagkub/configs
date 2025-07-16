@@ -1,9 +1,4 @@
 {
-    "remote.SSH.remotePlatform": {
-        "dercules": "linux",
-        "rls-test-gl-runner": "linux",
-        "newostest_ubuntu2404": "linux"
-    },
     "workbench.sideBar.location": "right",
     "security.workspace.trust.untrustedFiles": "open",
     "workbench.colorTheme": "GitHub Dark",
