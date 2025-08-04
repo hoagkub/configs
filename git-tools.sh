@@ -48,3 +48,4 @@ git-rebase () {
 # custom alias
 alias tree='find . | sed -e "s/[^-][^\/]*\//  │/g" -e "s/│\([^ ]\)/└──\1/"'
 alias dercules_ubuntu_playground='docker run --net host --shm-size=8g -v /var/run/docker.sock:/var/run/docker.sock -v "$(pwd):$(pwd)" -w "$(pwd)" --privileged --rm -it --name dercules-ubuntu-playground ubuntu:20.04 bash'
+alias tmux-kill-others='tmux kill-session -a -t $(tmux display-message -p "#S")'
