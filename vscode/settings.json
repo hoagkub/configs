@@ -65,7 +65,7 @@
             "args": [
                 "-c",
                 // "SESSION=vscode${PWD//\\//_}; tmux new-window -t $SESSION; tmux new-session -A -D -s $SESSION"
-                "SESSION=vscode${PWD//\\//_}; tmux new-session -A -D -s $SESSION"
+                "SESSION=vscode_dercules; tmux new-window -t $SESSION; tmux new-session -A -D -s $SESSION"
             ]
         }
     },
