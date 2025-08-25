@@ -38,6 +38,6 @@
     "teleport-distance": 200,
 
     "key-timeout": 150,
-    "show-overlay": false
+    "show-overlay": true
   }
 }
