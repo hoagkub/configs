@@ -16,4 +16,13 @@
         },
         "when": "terminalFocus"
     },
+    {
+        "key": "ctrl+down",
+        "command": "workbench.action.terminal.focus",
+    },
+    {
+        "key": "ctrl+up",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    }
 ]
