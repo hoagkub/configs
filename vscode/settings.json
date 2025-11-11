@@ -45,6 +45,7 @@
         "t-nano.markdown-to-confluence-vscode",
         "vincent-templier.vscode-netron",
         "yo1dog.cursor-align",
+        "sleistner.vscode-fileutils",
         "yzhang.markdown-all-in-one"
     ],
     "workbench.editorAssociations": {
@@ -73,4 +74,5 @@
         "-workbench.action.terminal.paste"
     ],
     "terminal.integrated.defaultProfile.linux": "bash-tmux"
+
 }
