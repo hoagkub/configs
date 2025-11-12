@@ -73,6 +73,9 @@
     "terminal.integrated.commandsToSkipShell": [
         "-workbench.action.terminal.paste"
     ],
-    "terminal.integrated.defaultProfile.linux": "bash-tmux"
-
+    "terminal.integrated.defaultProfile.linux": "bash-tmux",
+    "terminal.integrated.fontSize": 16,
+    "editor.fontSize": 16,
+    "workbench.panel.opensMaximized": "always"
 }
+
