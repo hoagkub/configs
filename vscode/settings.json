@@ -74,8 +74,13 @@
         "-workbench.action.terminal.paste"
     ],
     "terminal.integrated.defaultProfile.linux": "bash-tmux",
+    "vscode-office.editorTheme": "Github Dark",
+    "gitlens.views.commits.files.layout": "tree",
     "terminal.integrated.fontSize": 16,
     "editor.fontSize": 16,
-    "workbench.panel.opensMaximized": "always"
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "notebook.insertFinalNewline": true
 }
+
 
