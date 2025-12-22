@@ -80,7 +80,9 @@
     "editor.fontSize": 16,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "notebook.insertFinalNewline": true
+    "notebook.insertFinalNewline": true,
+    "workbench.list.horizontalScrolling": true
 }
+
 
 
