@@ -43,7 +43,6 @@
         "ms-vscode.remote-server",
         "ryu1kn.partial-diff",
         "t-nano.markdown-to-confluence-vscode",
-        "vincent-templier.vscode-netron",
         "yo1dog.cursor-align",
         "sleistner.vscode-fileutils",
         "yzhang.markdown-all-in-one"
@@ -83,6 +82,7 @@
     "notebook.insertFinalNewline": true,
     "workbench.list.horizontalScrolling": true
 }
+
 
 
 
