@@ -80,8 +80,10 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "notebook.insertFinalNewline": true,
-    "workbench.list.horizontalScrolling": true
+    "workbench.list.horizontalScrolling": true,
+    "explorer.compactFolders": false
 }
+
 
 
 
