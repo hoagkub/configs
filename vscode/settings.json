@@ -46,7 +46,7 @@
         "yo1dog.cursor-align",
         "sleistner.vscode-fileutils",
         "yzhang.markdown-all-in-one",
-        "vincent-templier.vscode-netron"
+        "lijian-onnx-viewer.onnxviewer"
     ],
     "workbench.editorAssociations": {
         "*.md": "default",
@@ -85,6 +85,7 @@
     "explorer.compactFolders": false,
     "scm.compactFolders": false
 }
+
 
 
 
