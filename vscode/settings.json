@@ -45,7 +45,8 @@
         "t-nano.markdown-to-confluence-vscode",
         "yo1dog.cursor-align",
         "sleistner.vscode-fileutils",
-        "yzhang.markdown-all-in-one"
+        "yzhang.markdown-all-in-one",
+        "vincent-templier.vscode-netron"
     ],
     "workbench.editorAssociations": {
         "*.md": "default",
@@ -84,6 +85,7 @@
     "explorer.compactFolders": false,
     "scm.compactFolders": false
 }
+
 
 
 
