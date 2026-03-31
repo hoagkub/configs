@@ -65,7 +65,8 @@
             "args": [
                 "-c",
                 // "SESSION=vscode${PWD//\\//_}; tmux new-window -t $SESSION; tmux new-session -A -D -s $SESSION"
-                "unset VSCODE_IPC_HOOK_CLI VSCODE_CWD; export XDG_RUNTIME_DIR=/run/user/$(id -u); SESSION=vscode_dercules; (tmux new-window -t $SESSION; tmux new-session -A -D -s $SESSION) || bash"
+                // "unset VSCODE_IPC_HOOK_CLI VSCODE_CWD; export XDG_RUNTIME_DIR=/run/user/$(id -u); SESSION=vscode_dercules; (tmux new-window -t $SESSION; tmux new-session -A -D -s $SESSION) || bash"
+                "export XDG_RUNTIME_DIR=/run/user/$(id -u); SESSION=vscode_dercules; (tmux new-window -t $SESSION; tmux new-session -A -D -s $SESSION) || bash"
             ],
         }
     },
