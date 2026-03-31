@@ -45,7 +45,8 @@
         "t-nano.markdown-to-confluence-vscode",
         "yo1dog.cursor-align",
         "sleistner.vscode-fileutils",
-        "yzhang.markdown-all-in-one"
+        "yzhang.markdown-all-in-one",
+        "pcassidy75.tmux-integrated"
     ],
     "workbench.editorAssociations": {
         "*.md": "default",
@@ -59,19 +60,19 @@
     "remote.autoForwardPortsSource": "hybrid",
     "workbench.editor.enablePreview": false,
     "explorer.autoReveal": false,
-    "terminal.integrated.profiles.linux": {
-        "bash-tmux": {
-            "path": "bash",
-            "args": [
-                "-c",
-                // "SESSION=vscode${PWD//\\//_}; tmux new-window -t $SESSION; tmux new-session -A -D -s $SESSION"
-                "unset VSCODE_IPC_HOOK_CLI VSCODE_CWD; export XDG_RUNTIME_DIR=/run/user/$(id -u); SESSION=vscode_dercules; (tmux new-window -t $SESSION; tmux new-session -A -D -s $SESSION) || bash"
-            ]
-        }
-    },
-    "terminal.integrated.commandsToSkipShell": [
-        "-workbench.action.terminal.paste"
-    ],
+    // "terminal.integrated.profiles.linux": {
+    //     "bash-tmux": {
+    //         "path": "bash",
+    //         "args": [
+    //             "-c",
+    //             // "SESSION=vscode${PWD//\\//_}; tmux new-window -t $SESSION; tmux new-session -A -D -s $SESSION"
+    //             "unset VSCODE_IPC_HOOK_CLI VSCODE_CWD; export XDG_RUNTIME_DIR=/run/user/$(id -u); SESSION=vscode_dercules; (tmux new-window -t $SESSION; tmux new-session -A -D -s $SESSION) || bash"
+    //         ],
+    //     }
+    // },
+    // "terminal.integrated.commandsToSkipShell": [
+    //     "-workbench.action.terminal.paste"
+    // ],
     "terminal.integrated.defaultProfile.linux": "bash-tmux",
     "vscode-office.editorTheme": "Github Dark",
     "gitlens.views.commits.files.layout": "tree",
