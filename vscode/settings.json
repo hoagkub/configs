@@ -81,7 +81,12 @@
     "notebook.insertFinalNewline": true,
     "workbench.list.horizontalScrolling": true,
     "explorer.compactFolders": false,
-    "scm.compactFolders": false
+    "scm.compactFolders": false,
+    "terminal.integrated.fontSize": 15,
+    "workbench.editor.enablePreview": false,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "terminal.integrated.defaultLocation": "editor"
 }
 
 
