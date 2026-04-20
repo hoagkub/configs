@@ -45,8 +45,7 @@
         "t-nano.markdown-to-confluence-vscode",
         "yo1dog.cursor-align",
         "sleistner.vscode-fileutils",
-        "yzhang.markdown-all-in-one",
-        "jonathan-yeung.mark-sharp"
+        "yzhang.markdown-all-in-one"
     ],
     "workbench.editorAssociations": {
         "*.md": "default",
