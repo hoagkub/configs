@@ -1,7 +1,5 @@
 {
-    "workbench.sideBar.location": "right",
     "security.workspace.trust.untrustedFiles": "open",
-    "workbench.colorTheme": "GitHub Dark",
     "editor.multiCursorPaste": "full",
     "vscode-office.openOutline": true,
     "git.mergeEditor": true,
@@ -49,16 +47,16 @@
         "LeonKohli.snapsource"
     ],
     "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
         "*.md": "default",
         "*.csv": "default",
-        "*.markdown": "default"
+        "*.markdown": "default",
+        "*.txt": "default"
     },
     "notebook.diff.ignoreMetadata": true,
     "notebook.diff.ignoreOutputs": true,
-    "workbench.panel.showLabels": false,
     "diffEditor.renderSideBySide": true,
     "remote.autoForwardPortsSource": "hybrid",
-    "workbench.editor.enablePreview": false,
     "explorer.autoReveal": false,
     "terminal.integrated.profiles.linux": {
         "bash-tmux": {
@@ -75,26 +73,37 @@
     "terminal.integrated.defaultProfile.linux": "bash-tmux",
     "vscode-office.editorTheme": "Github Dark",
     "gitlens.views.commits.files.layout": "tree",
-    "terminal.integrated.fontSize": 16,
     "editor.fontSize": 16,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "notebook.insertFinalNewline": true,
     "workbench.list.horizontalScrolling": true,
+    "workbench.sideBar.location": "right",
+    "gitlens.views.scm.grouped.views": {
+        "commits": true,
+        "branches": true,
+        "remotes": true,
+        "stashes": false,
+        "tags": true,
+        "worktrees": true,
+        "contributors": true,
+        "fileHistory": false,
+        "repositories": true,
+        "searchAndCompare": true,
+        "launchpad": false
+    },
+    "workbench.colorTheme": "GitHub Dark",
     "explorer.compactFolders": false,
     "scm.compactFolders": false,
     "terminal.integrated.fontSize": 15,
     "workbench.editor.enablePreview": false,
     "gitlens.ai.model": "vscode",
     "gitlens.ai.vscode.model": "copilot:gpt-4.1",
-    "terminal.integrated.defaultLocation": "editor"
+    "terminal.integrated.defaultLocation": "editor",
+    "remote.SSH.lockfilesInTmp": true,
+    "remote.SSH.useLocalServer": false,
+    "remote.SSH.remotePlatform": {
+        "release-test-sub-server": "linux"
+    },
+    "python.terminal.activateEnvironment": false
 }
-
-
-
-
-
-
-
-
-
