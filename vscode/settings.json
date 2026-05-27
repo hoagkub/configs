@@ -44,7 +44,8 @@
         "yo1dog.cursor-align",
         "sleistner.vscode-fileutils",
         "yzhang.markdown-all-in-one",
-        "LeonKohli.snapsource"
+        "LeonKohli.snapsource",
+        "Anthropic.claude-code"
     ],
     "workbench.editorAssociations": {
         "*.copilotmd": "vscode.markdown.preview.editor",
