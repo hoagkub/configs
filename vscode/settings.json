@@ -106,5 +106,6 @@
     "remote.SSH.remotePlatform": {
         "release-test-sub-server": "linux"
     },
-    "python.terminal.activateEnvironment": false
+    "python.terminal.activateEnvironment": false,
+    "git.autoRepositoryDetection": false
 }
