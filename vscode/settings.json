@@ -107,5 +107,9 @@
         "release-test-sub-server": "linux"
     },
     "python.terminal.activateEnvironment": false,
-    "git.autoRepositoryDetection": false
+    "git.autoRepositoryDetection": false,
+    "remote.SSH.serverInstallPath": {
+        "jpn93004196001": "/home/hoang",
+        "jpn93004196005": "/home/hoang"
+    }
 }
